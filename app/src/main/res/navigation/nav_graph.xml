@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentSing">
+
+    <fragment
+        android:id="@+id/fragmentSing"
+        android:name="com.example.finalexam.Auth.ui.FragmentSing"
+        android:label="fragment_sing"
+        tools:layout="@layout/fragment_sing" >
+        <action
+            android:id="@+id/action_fragmentSing_to_fragmentForgetPassword"
+            app:destination="@id/fragmentForgetPassword" />
+        <action
+            android:id="@+id/action_fragmentSing_to_fragmentCreateAcc"
+            app:destination="@id/fragmentCreateAcc" />
+        <action
+            android:id="@+id/action_fragmentSing_to_fragmentHome"
+            app:destination="@id/fragmentHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCreateAcc"
+        android:name="com.example.finalexam.Auth.ui.FragmentCreateAcc"
+        android:label="fragment_create_acc"
+        tools:layout="@layout/fragment_create_acc" >
+        <action
+            android:id="@+id/action_fragmentCreateAcc_to_fragmentSing"
+            app:destination="@id/fragmentSing" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentForgetPassword"
+        android:name="com.example.finalexam.Auth.ui.FragmentForgetPassword"
+        android:label="fragment_forget_password"
+        tools:layout="@layout/fragment_forget_password" >
+        <action
+            android:id="@+id/action_fragmentForgetPassword_to_fragmentSing"
+            app:destination="@id/fragmentSing" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.example.finalexam.Main.FragmentHome"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/fragmentAdd"
+        android:name="com.example.finalexam.Main.FragmentAdd"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/fragmentDetails2"
+        android:name="com.example.finalexam.Main.FragmentDetails"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" />
+    <fragment
+        android:id="@+id/fragmentProfile2"
+        android:name="com.example.finalexam.Main.FragmentProfile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_fragmentProfile2_to_fragmentSing"
+            app:destination="@id/fragmentSing" />
+    </fragment>
+</navigation>

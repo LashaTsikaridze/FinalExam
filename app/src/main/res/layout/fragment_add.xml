@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etName"
+            android:hint="სახელი"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:hint="საშუალო წონა (კგ)"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etLifespan"
+            android:hint="სიცოცხლის ხანგრძლივობა (წლები)"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:hint="აღწერა"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etHabitat"
+            android:hint="სად ბინადრობს"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- ფოტოსთვის შეგიძლია ImageView + არჩევა, აქ მარტივად უბრალოდ ტექსტი ვსაყვედუროთ -->
+
+        <EditText
+            android:id="@+id/etPhotoUri"
+            android:hint="ფოტოს URI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnAddAnimal"
+            android:text="დამატება"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

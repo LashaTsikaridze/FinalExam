@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragmentHome"
+        android:title="ძირითადი"
+        android:icon="@drawable/home"
+ />
+
+    <item
+        android:id="@+id/fragmentAdd"
+        android:title="დამატება"
+        android:icon="@drawable/add"
+
+    />
+
+
+    <item
+        android:id="@+id/fragmentProfile2"
+        android:title="პროფილი"
+        android:icon="@drawable/profile"
+ />
+</menu>
