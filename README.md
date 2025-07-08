@@ -7,7 +7,6 @@ FinalExam is an Android application that allows users to register and log in via
 - **User Authentication:** Registration, login, and logout with Firebase Authentication.
 - **User Profile:** View user profile data (first name, last name, age, gender, email) retrieved from Firebase Realtime Database.
 - **Local Animal Database:** Add, list, and delete animals stored in a local SQLite database.
-- **Swipe-to-Delete:** Remove animals from the list with swipe gestures.
 - **Navigation:** Smooth navigation between screens using Android Navigation Component.
 - **UI:** Clean and responsive UI with ViewBinding and RecyclerView.
 
