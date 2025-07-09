@@ -1,19 +1,19 @@
 ✨ ＦＥＡＴＵＲＥＳ
 
 🔐 User Authentication
-Register, log in, and log out using Firebase Authentication.
+Securely register, log in, and log out using Firebase Authentication for a seamless user experience.
 
 👤 User Profile Management
-View and edit user details (First name, Last name, Age, Gender, Email) fetched from Firebase Realtime Database.
+Easily view and update user details—including First Name, Last Name, Age, Gender, and Email—synchronized with Firebase Realtime Database.
 
 🐶 Local Animal Database
-Add, view, and delete animal entries using SQLite, with support for image, name, age, and origin.
+Add, browse, and delete animal records locally using SQLite, with support for images, names, ages, and origins.
 
-🧭 Smooth Navigation
-Switch between Home, Add Animal, and Profile tabs using BottomNavigationView and Navigation Components.
+🧭 Intuitive Navigation
+Effortlessly switch between Home, Add Animal, and Profile screens using BottomNavigationView integrated with Navigation Components.
 
-🎨 Modern UI
-Built with ViewBinding and RecyclerView for efficient UI rendering. Supports custom fonts, varying text sizes and styles for different elements (e.g., bolded names, italic bios, colored section headers).
+🎨 Modern and Responsive UI
+Designed with ViewBinding and RecyclerView for smooth performance. Features customizable fonts, dynamic text sizes, and styles such as bolded names, italicized biographies, and color-coded section headers for enhanced readability.
 
 
 
@@ -106,3 +106,34 @@ Beneath that, the following personal details are listed:
 🎴 This screen is styled with a clean card layout and uses readable fonts to display user data in a clear and organized manner.
 
 ![profilee](https://github.com/user-attachments/assets/892677f6-4588-4076-b3dc-66e33567cce3)
+
+🚀 𝗚𝗘𝗧𝗧𝗜𝗡𝗚 𝗦𝗧𝗔𝗥𝗧𝗘𝗗
+✅ Prerequisites
+Android Studio Bumblebee or later
+
+A Firebase project:
+
+Enable Email/Password Authentication
+
+Enable Realtime Database
+
+Add your google-services.json file to the /app directory
+
+🔧 Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/finalexam.git
+Open the project in Android Studio
+
+Add google-services.json to /app folder
+
+Sync Gradle and run the app on emulator or device
+
+
+✨ 𝐀𝐔𝐓𝐇𝐎𝐑 / 𝐂𝐎𝐍𝐓𝐀𝐂𝐓
+Lasha Tsikaridze
+📧 Email: tsikaridzelashaa@gmail.com
+🔗 LinkedIn: linkedin.com/in/lashatsikaridze 
