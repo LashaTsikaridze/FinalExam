@@ -13,13 +13,13 @@ Switch between Home, Add Animal, and Profile tabs using BottomNavigationView and
 
 🎨 Modern UI
 Built with ViewBinding and RecyclerView for efficient UI rendering. Supports custom fonts, varying text sizes and styles for different elements (e.g., bolded names, italic bios, colored section headers).
-
-
-
-
-
-
-
+.
+.
+.
+.
+.
+.
+.
  Home Screen – Animals List
 At the top of the screen, you can see the title:
 📝 Animals List
@@ -47,11 +47,12 @@ At the bottom, there's a smooth and intuitive navigation bar:
 ➕ Add (Add a new animal)
 
 👤 Profile (User profile section)
+.
 ![homeememe](https://github.com/user-attachments/assets/903ff878-04e9-4606-b1dd-a8dca5a48325)
-
-
-
-
+.
+.
+.
+.
 ➕ Add Animal Screen
 This screen allows users to add a new animal to the local database 🐾 using a simple and clean form interface.
 
@@ -78,11 +79,12 @@ This screen allows users to add a new animal to the local database 🐾 using a 
 👤 Profile – View user profile
 
 ✨ The form uses simple text fields for input and a modern button design to enhance usability. All labels are written in Georgian, supporting multilingual UI.
+.
 ![dddaadd](https://github.com/user-attachments/assets/36c26d91-cdc3-43f5-bd29-7f353e7264a1)
-
-
-
-
+.
+.
+.
+.
 👤 Profile Screen – User Information
 This screen displays the authenticated user’s profile information retrieved from Firebase Realtime Database 🔐.
 
@@ -108,4 +110,5 @@ Beneath that, the following personal details are listed:
 👤 Profile – You are here
 
 🎨 This screen is styled with a clean card layout and uses readable fonts to display user data in a clear and organized manner.
+.
 ![profilee](https://github.com/user-attachments/assets/892677f6-4588-4076-b3dc-66e33567cce3)
