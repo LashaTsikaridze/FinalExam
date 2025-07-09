@@ -45,12 +45,12 @@ At the bottom, there's a smooth and intuitive navigation bar:
 
 🧙 Profile (User profile section)
 
-.
+
 ![homeememe](https://github.com/user-attachments/assets/903ff878-04e9-4606-b1dd-a8dca5a48325)
-.
-.
-.
-.
+
+
+
+
 
 ➕ 𝐀𝐃𝐃 𝐀𝐍𝐈𝐌𝐀𝐋 𝐒𝐂𝐑𝐄𝐄𝐍 🐾
 This screen allows users to add a new animal to the local database 🐾 using a simple and clean form interface.
@@ -72,12 +72,12 @@ This screen allows users to add a new animal to the local database 🐾 using a 
 🧑‍💻 Profile – See user account information
 
 ✨ The form uses simple text fields for input and a modern button design to enhance usability. All labels are written in Georgian, supporting multilingual UI.
-.
+
 ![dddaadd](https://github.com/user-attachments/assets/36c26d91-cdc3-43f5-bd29-7f353e7264a1)
-.
-.
-.
-.
+
+
+
+
 
 👤 𝐏𝐑𝐎𝐅𝐈𝐋𝐄 𝐒𝐂𝐑𝐄𝐄𝐍 – 𝐔𝐒𝐄𝐑 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🔐
 This screen displays the authenticated user’s profile information retrieved from Firebase Realtime Database 🔐.
@@ -104,4 +104,5 @@ Beneath that, the following personal details are listed:
 🧙‍♀️ Profile – You are here
 
 🎴 This screen is styled with a clean card layout and uses readable fonts to display user data in a clear and organized manner.
+
 ![profilee](https://github.com/user-attachments/assets/892677f6-4588-4076-b3dc-66e33567cce3)
