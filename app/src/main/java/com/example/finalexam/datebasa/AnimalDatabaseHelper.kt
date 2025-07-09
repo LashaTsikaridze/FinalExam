@@ -8,16 +8,16 @@ class AnimalDatabaseHelper(context: Context) :
     SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
 
     companion object {
-        private const val DATABASE_NAME = "animals.db"
-        private const val DATABASE_VERSION = 1
-        private const val TABLE_NAME = "animal"
-        private const val COLUMN_ID = "id"
-        private const val COLUMN_NAME = "name"
-        private const val COLUMN_WEIGHT = "average_weight"
-        private const val COLUMN_PHOTO = "photo_uri"
-        private const val COLUMN_LIFESPAN = "lifespan"
-        private const val COLUMN_DESCRIPTION = "description"
-        private const val COLUMN_HABITAT = "habitat"
+        const val DATABASE_NAME = "animals.db"
+        const val DATABASE_VERSION = 1
+        const val TABLE_NAME = "animal"
+        const val COLUMN_ID = "id"
+        const val COLUMN_NAME = "name"
+        const val COLUMN_WEIGHT = "average_weight"
+        const val COLUMN_PHOTO = "photo_uri"
+        const val COLUMN_LIFESPAN = "lifespan"
+        const val COLUMN_DESCRIPTION = "description"
+        const val COLUMN_HABITAT = "habitat"
     }
 
     override fun onCreate(db: SQLiteDatabase) {
@@ -34,7 +34,6 @@ class AnimalDatabaseHelper(context: Context) :
         """.trimIndent()
         db.execSQL(createTable)
     }
-
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
         db.execSQL("DROP TABLE IF EXISTS $TABLE_NAME")
@@ -76,21 +75,16 @@ class AnimalDatabaseHelper(context: Context) :
         return animals
     }
 
-
     fun deleteAnimal(id: Int): Boolean {
         val db = writableDatabase
-        println("Deleting animal with id: $id")
         return try {
-            val rowsDeleted = db.delete("animals", "id = ?", arrayOf(id.toString()))
-            println("Rows deleted: $rowsDeleted")
+            val rowsDeleted = db.delete(TABLE_NAME, "id = ?", arrayOf(id.toString()))
             rowsDeleted > 0
         } catch (e: Exception) {
             e.printStackTrace()
             false
         }
     }
-
-
 }
 
 

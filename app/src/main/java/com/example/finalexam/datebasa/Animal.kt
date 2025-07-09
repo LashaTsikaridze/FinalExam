@@ -1,11 +1,15 @@
 package com.example.finalexam.datebasa
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class Animal(
     val id: Int = 0,
     val name: String,
     val averageWeight: Double,
-    val photoUri: String,    // ფოტოს Uri როგორც String (შეგიძლია სხვა ტიპი)
-    val lifespan: Int,       // რამდენი ხანს ცოცხლობს (წელი)
+    val photoUri: String,
+    val lifespan: Int,
     val description: String,
     val habitat: String
-)
+) : Parcelable

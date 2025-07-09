@@ -10,8 +10,10 @@ import com.bumptech.glide.Glide
 import com.example.finalexam.R
 import com.example.finalexam.datebasa.Animal
 
-class AnimalAdapter(private val animals: MutableList<Animal>) :
-    RecyclerView.Adapter<AnimalAdapter.AnimalViewHolder>() {
+class AnimalAdapter(
+    private val animals: MutableList<Animal>,
+    private val onItemClick: (Animal) -> Unit
+) : RecyclerView.Adapter<AnimalAdapter.AnimalViewHolder>() {
 
     inner class AnimalViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val tvName: TextView = itemView.findViewById(R.id.tvName)
@@ -20,6 +22,15 @@ class AnimalAdapter(private val animals: MutableList<Animal>) :
         val tvDescription: TextView = itemView.findViewById(R.id.tvDescription)
         val tvHabitat: TextView = itemView.findViewById(R.id.tvHabitat)
         val ivPhoto: ImageView = itemView.findViewById(R.id.ivPhoto)
+
+        init {
+            itemView.setOnClickListener {
+                val position = adapterPosition
+                if (position != RecyclerView.NO_POSITION) {
+                    onItemClick(animals[position])
+                }
+            }
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AnimalViewHolder {
@@ -36,7 +47,6 @@ class AnimalAdapter(private val animals: MutableList<Animal>) :
         holder.tvDescription.text = animal.description
         holder.tvHabitat.text = "ბინადრობს: ${animal.habitat}"
 
-        // თუ photoUri არის ფოტოს ბმული ან ლოკალური Uri
         Glide.with(holder.itemView.context)
             .load(animal.photoUri)
             .placeholder(R.drawable.ic_launcher_background)
