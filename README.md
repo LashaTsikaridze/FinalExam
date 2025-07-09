@@ -1,31 +1,19 @@
-# FinalExam - Animal and User Management Android App
+✨ Features
+🔐 User Authentication
+Register, log in, and log out using Firebase Authentication.
 
-## Description
-FinalExam is an Android application that allows users to register and log in via Firebase Authentication, view and update their profile data stored in Firebase Realtime Database, and manage a local database of animals using SQLite. The app includes features such as adding, listing, and deleting animals with a user-friendly interface.
+👤 User Profile Management
+View and edit user details (First name, Last name, Age, Gender, Email) fetched from Firebase Realtime Database.
 
-## Features
-- **User Authentication:** Registration, login, and logout with Firebase Authentication.
-- **User Profile:** View user profile data (first name, last name, age, gender, email) retrieved from Firebase Realtime Database.
-- **Local Animal Database:** Add, list, and delete animals stored in a local SQLite database.
-- **Navigation:** Smooth navigation between screens using Android Navigation Component.
-- **UI:** Clean and responsive UI with ViewBinding and RecyclerView.
+🐶 Local Animal Database
+Add, view, and delete animal entries using SQLite, with support for image, name, age, and origin.
 
-## Technologies Used
-- Kotlin
-- Firebase Authentication
-- Firebase Realtime Database
-- SQLite
-- Android Jetpack (Fragments, Navigation Component, ViewBinding)
-- RecyclerView
+🧭 Smooth Navigation
+Switch between Home, Add Animal, and Profile tabs using BottomNavigationView and Navigation Components.
 
-## Getting Started
+🎨 Modern UI
+Built with ViewBinding and RecyclerView for efficient UI rendering. Supports custom fonts, varying text sizes and styles for different elements (e.g., bolded names, italic bios, colored section headers).
 
-### Prerequisites
-- Android Studio installed
-- A Firebase project with Authentication and Realtime Database enabled
-- `google-services.json` file downloaded from Firebase Console
-
-### Installation
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/finalexam.git
+![homeememe](https://github.com/user-attachments/assets/903ff878-04e9-4606-b1dd-a8dca5a48325)
+![dddaadd](https://github.com/user-attachments/assets/36c26d91-cdc3-43f5-bd29-7f353e7264a1)
+![profilee](https://github.com/user-attachments/assets/892677f6-4588-4076-b3dc-66e33567cce3)
