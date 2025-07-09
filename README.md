@@ -133,7 +133,10 @@ Add google-services.json to /app folder
 Sync Gradle and run the app on emulator or device
 
 
-✨ 𝐀𝐔𝐓𝐇𝐎𝐑 / 𝐂𝐎𝐍𝐓𝐀𝐂𝐓
+✨ 𝐀𝐔𝐓𝐇𝐎𝐑 / 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 
+
 Lasha Tsikaridze
+
 📧 Email: tsikaridzelashaa@gmail.com
+
 🔗 LinkedIn: linkedin.com/in/lashatsikaridze 
