@@ -20,24 +20,38 @@ Built with ViewBinding and RecyclerView for efficient UI rendering. Supports cus
 𝐇𝐎𝐌𝐄 𝐒𝐂𝐑𝐄𝐄𝐍 – 𝐀𝐍𝐈𝐌𝐀𝐋𝐒 𝐋𝐈𝐒𝐓 🐾
 At the top of the screen, you can see the title:
 🗂️ Animals List
+
 📜 Below the title, there's a list of animals (e.g., 🦡 Badger, 🦦 Otter) each displayed with:
+
 📸 Image
+
 ⚖️ Weight
+
 🎉 Age
+
 🌏 Origin
+
 𝐄𝐚𝐜𝐡 𝐚𝐧𝐢𝐦𝐚𝐥 𝐚𝐥𝐬𝐨 𝐢𝐧𝐜𝐥𝐮𝐝𝐞𝐬: 🐾
+
 📖 A short description about the species
+
 🌍 A translated biography in English (italicized for emphasis)
+
 At the bottom, there's a smooth and intuitive navigation bar:
+
 🏰 Home (Directory of animals)
+
 ➕ Add (Add a new animal)
+
 🧙 Profile (User profile section)
+
 .
 ![homeememe](https://github.com/user-attachments/assets/903ff878-04e9-4606-b1dd-a8dca5a48325)
 .
 .
 .
 .
+
 ➕ 𝐀𝐃𝐃 𝐀𝐍𝐈𝐌𝐀𝐋 𝐒𝐂𝐑𝐄𝐄𝐍 🐾
 This screen allows users to add a new animal to the local database 🐾 using a simple and clean form interface.
 
@@ -64,6 +78,7 @@ This screen allows users to add a new animal to the local database 🐾 using a 
 .
 .
 .
+
 👤 𝐏𝐑𝐎𝐅𝐈𝐋𝐄 𝐒𝐂𝐑𝐄𝐄𝐍 – 𝐔𝐒𝐄𝐑 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🔐
 This screen displays the authenticated user’s profile information retrieved from Firebase Realtime Database 🔐.
 
